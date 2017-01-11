@@ -10,8 +10,9 @@ import org.optaplanner.core.api.domain.solution.PlanningSolution;
 import org.optaplanner.core.api.domain.solution.drools.ProblemFactCollectionProperty;
 import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
 import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import taskou.optataskprj.AbstractPersistable;
 import org.optaplanner.persistence.xstream.api.score.buildin.bendable.BendableScoreXStreamConverter;
+
+import taskou.optataskprj.AbstractPersistable;
 
 @PlanningSolution
 @XStreamAlias("TaTaskAssigningSolution")
