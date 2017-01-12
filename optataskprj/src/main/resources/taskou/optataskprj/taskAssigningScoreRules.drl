@@ -4,14 +4,6 @@ dialect "java"
 
 import org.optaplanner.core.api.score.buildin.bendable.BendableScoreHolder;
 
-import taskou.optataskprj.Affinity;
-//import org.optaplanner.examples.taskassigning.domain.Customer;
-//import org.optaplanner.examples.taskassigning.domain.Employee;
-import taskou.optataskprj.Skill;
-//import org.optaplanner.examples.taskassigning.domain.Task;
-//import org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
-//import org.optaplanner.examples.taskassigning.domain.TaskType
-//import org.optaplanner.examples.taskassigning.domain.Priority;
 
 global BendableScoreHolder scoreHolder;
 
