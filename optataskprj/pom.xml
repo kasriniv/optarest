@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>TaskOU</groupId>
   <artifactId>optataskprj</artifactId>
-  <version>2</version>
+  <version>3</version>
   <packaging>kjar</packaging>
   <name>optataskprj</name>
   <repositories>
