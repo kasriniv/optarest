@@ -2,7 +2,7 @@ package taskou.optataskprj;
 
 dialect "java"
 
-//import org.optaplanner.core.api.score.buildin.bendable.BendableScoreHolder;
+import org.optaplanner.core.api.score.buildin.bendable.BendableScoreHolder;
 
 
 global BendableScoreHolder scoreHolder;
