@@ -13,7 +13,7 @@ global BendableScoreHolder scoreHolder;
 
 rule "Skill requirements"
     when
-        Task(employee != null, missingSkillCount > 0, $missingSkillCount : missingSkillCount)
+        taskou.optataskprj.Task(employee != null, missingSkillCount > 0, $missingSkillCount : missingSkillCount)
     then
         scoreHolder.addHardConstraintMatch(kcontext, 0, - $missingSkillCount);
 end
