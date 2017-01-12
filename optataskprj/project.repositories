@@ -3,8 +3,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-ga-plugin-repository</id>
-        <url>http://maven.repository.redhat.com/techpreview/all</url>
+        <id>redhat-ga-repository</id>
+        <url>http://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-public-repository</id>
+        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -13,22 +21,6 @@
       <metadata>
         <id>jboss-ga-repository</id>
         <url>http://maven.repository.redhat.com/techpreview/all</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>local</id>
-        <url>/Users/kasriniv/.m2/repository</url>
-        <source>LOCAL</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-public-repository</id>
-        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -51,9 +43,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>redhat-ga-repository</id>
-        <url>http://maven.repository.redhat.com/ga/</url>
+        <id>jboss-ga-plugin-repository</id>
+        <url>http://maven.repository.redhat.com/techpreview/all</url>
         <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/Users/kasriniv/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
